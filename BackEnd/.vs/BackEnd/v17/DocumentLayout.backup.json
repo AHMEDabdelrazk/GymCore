@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\services\\interfaces\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\services\\interfaces\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\services\\interfaces\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\services\\interfaces\\iplanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\data\\gymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\data\\gymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\models\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\models\\entities\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\member\\updatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\member\\updatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\member\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\member\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\controllers\\plancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\models\\entities\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\models\\entities\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\plan\\updateplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\plan\\updateplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\plan\\createplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\plan\\createplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\data\\configurations\\membershipplanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\data\\configurations\\membershipplanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\mappings\\planprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\mappings\\planprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\repositories\\planrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\interfaces\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\interfaces\\iplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\data\\gymdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\data\\gymdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\services\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\services\\planservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\plan\\plandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\plan\\plandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T14:38:43.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\Interfaces\\IMemberService.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Services\\Interfaces\\IMemberService.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\Interfaces\\IMemberService.cs",
+              "RelativeToolTip": "BackEnd\\Services\\Interfaces\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T14:02:53.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeToolTip": "BackEnd\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:03:09.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Controllers\\MembersController.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "BackEnd\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:40:56.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberService.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\MemberService.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Services\\MemberService.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\MemberService.cs",
+              "RelativeToolTip": "BackEnd\\Services\\MemberService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:39:57.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:38:43.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GymDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContext.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Data\\GymDbContext.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContext.cs",
+              "RelativeToolTip": "BackEnd\\Data\\GymDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:47:15.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPlanService.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\Interfaces\\IPlanService.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Services\\Interfaces\\IPlanService.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\Interfaces\\IPlanService.cs",
+              "RelativeToolTip": "BackEnd\\Services\\Interfaces\\IPlanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:57:36.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\UpdateMemberDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Member\\UpdateMemberDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\UpdateMemberDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Member\\UpdateMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:38:59.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\Member.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Models\\Entities\\Member.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\Member.cs",
+              "RelativeToolTip": "BackEnd\\Models\\Entities\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T12:37:28.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlanController.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\PlanController.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Controllers\\PlanController.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\PlanController.cs",
+              "RelativeToolTip": "BackEnd\\Controllers\\PlanController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:00:48.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MembershipPlan.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "RelativeToolTip": "BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:04:31.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MembershipPlanConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\Configurations\\MembershipPlanConfiguration.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Data\\Configurations\\MembershipPlanConfiguration.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\Configurations\\MembershipPlanConfiguration.cs",
+              "RelativeToolTip": "BackEnd\\Data\\Configurations\\MembershipPlanConfiguration.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:50:40.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreatePlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\CreatePlanDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Plan\\CreatePlanDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\CreatePlanDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Plan\\CreatePlanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:10:39.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdatePlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\UpdatePlanDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Plan\\UpdatePlanDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\UpdatePlanDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Plan\\UpdatePlanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:13:29.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlanProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Mappings\\PlanProfile.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Mappings\\PlanProfile.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Mappings\\PlanProfile.cs",
+              "RelativeToolTip": "BackEnd\\Mappings\\PlanProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:57:47.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Repositories\\PlanRepository.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Repositories\\PlanRepository.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Repositories\\PlanRepository.cs",
+              "RelativeToolTip": "BackEnd\\Repositories\\PlanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:54:17.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPlanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Interfaces\\IPlanRepository.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Interfaces\\IPlanRepository.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Interfaces\\IPlanRepository.cs",
+              "RelativeToolTip": "BackEnd\\Interfaces\\IPlanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:52:39.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GymDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContextFactory.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Data\\GymDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContextFactory.cs",
+              "RelativeToolTip": "BackEnd\\Data\\GymDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T10:21:17.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "BackEnd\\appsettings.json",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeToolTip": "BackEnd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-03T10:02:23.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PlanService.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\PlanService.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Services\\PlanService.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Services\\PlanService.cs",
+              "RelativeToolTip": "BackEnd\\Services\\PlanService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA0wFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:58:55.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\PlanDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Plan\\PlanDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Plan\\PlanDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Plan\\PlanDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:23:22.327Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

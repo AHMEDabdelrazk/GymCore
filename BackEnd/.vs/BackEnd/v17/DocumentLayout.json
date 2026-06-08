@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\models\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\models\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\controllers\\memberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\data\\gymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\data\\gymdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\models\\entities\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\models\\entities\\membershipplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\member\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\member\\creatememberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|c:\\users\\samir\\desktop\\temp a.abdelrazik\\projects\\webapps\\gym core\\backend\\backend\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9780168-3838-4C5B-B6F9-CA9E3CA7E6DF}|BackEnd\\BackEnd.csproj|solutionrelative:backend\\dtos\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:25:16.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BackEnd\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:05:21.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Program.cs",
+              "RelativeToolTip": "BackEnd\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T23:05:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "BackEnd\\appsettings.json",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\appsettings.json",
+              "RelativeToolTip": "BackEnd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-04T16:30:21.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:25:44.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Models\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "BackEnd\\Models\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T23:04:13.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MembersController.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\MembersController.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Controllers\\MembersController.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Controllers\\MembersController.cs",
+              "RelativeToolTip": "BackEnd\\Controllers\\MembersController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:46:29.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MembershipPlan.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "RelativeToolTip": "BackEnd\\Models\\Entities\\MembershipPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:48:00.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GymDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContext.cs",
+              "RelativeDocumentMoniker": "BackEnd\\Data\\GymDbContext.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\Data\\GymDbContext.cs",
+              "RelativeToolTip": "BackEnd\\Data\\GymDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:47:24.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateMemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Member\\CreateMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:25:19.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "RelativeDocumentMoniker": "BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "ToolTip": "C:\\Users\\Samir\\Desktop\\Temp A.Abdelrazik\\projects\\WebApps\\Gym Core\\BackEnd\\BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "RelativeToolTip": "BackEnd\\DTOs\\Member\\MemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T16:25:12.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
