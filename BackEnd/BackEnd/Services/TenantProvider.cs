@@ -29,16 +29,30 @@ public class TenantProvider : ITenantProvider
         if (context == null)
             return 1; // Default tenant fallback for background jobs or unit tests
 
-        // 1. Check custom header "X-Tenant-ID"
+        var isAuthenticated = context.User?.Identity?.IsAuthenticated == true;
+        var isGlobalAdmin = IsGlobalAdmin();
+
+        // 1. If authenticated as a non-admin, strictly lock to their assigned JWT tenant claim.
+        // Non-admins CANNOT override their branch via X-Tenant-ID header.
+        if (isAuthenticated && !isGlobalAdmin)
+        {
+            var userTenantClaim = context.User?.FindFirst("tenant_id")?.Value;
+            if (!string.IsNullOrEmpty(userTenantClaim) && int.TryParse(userTenantClaim, out var lockedTenant) && lockedTenant > 0)
+            {
+                return lockedTenant;
+            }
+        }
+
+        // 2. If SuperAdmin or unauthenticated (e.g. kiosk terminal / external callback), check X-Tenant-ID header
         if (context.Request.Headers.TryGetValue("X-Tenant-ID", out var tenantHeader) &&
             int.TryParse(tenantHeader, out var parsedHeaderTenant) && parsedHeaderTenant > 0)
         {
             return parsedHeaderTenant;
         }
 
-        // 2. Check JWT Claims
-        var tenantClaim = context.User.FindFirst("tenant_id")?.Value;
-        if (!string.IsNullOrEmpty(tenantClaim) && int.TryParse(tenantClaim, out var parsedClaimTenant) && parsedClaimTenant > 0)
+        // 3. Check JWT Claims as fallback
+        var claimTenant = context.User?.FindFirst("tenant_id")?.Value;
+        if (!string.IsNullOrEmpty(claimTenant) && int.TryParse(claimTenant, out var parsedClaimTenant) && parsedClaimTenant > 0)
         {
             return parsedClaimTenant;
         }
@@ -49,9 +63,34 @@ public class TenantProvider : ITenantProvider
     public bool IsGlobalAdmin()
     {
         var context = _httpContextAccessor.HttpContext;
-        if (context == null)
+        if (context == null || context.User == null)
             return false;
 
         return context.User.IsInRole(UserRoles.SuperAdmin);
+    }
+
+    public string? GetCurrentUserId()
+    {
+        return _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    }
+
+    public string? GetCurrentUserEmail()
+    {
+        return _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Email)?.Value
+            ?? _httpContextAccessor.HttpContext?.User?.Identity?.Name;
+    }
+
+    public string? GetClientIpAddress()
+    {
+        var context = _httpContextAccessor.HttpContext;
+        if (context == null)
+            return null;
+
+        if (context.Request.Headers.TryGetValue("X-Forwarded-For", out var forwarded) && !string.IsNullOrEmpty(forwarded))
+        {
+            return forwarded.ToString().Split(',')[0].Trim();
+        }
+
+        return context.Connection.RemoteIpAddress?.ToString();
     }
 }

@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using GymCore.API.Data;
 using GymCore.API.DTOs.Billing;
 using GymCore.API.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,7 @@ namespace GymCore.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = $"{UserRoles.SuperAdmin},{UserRoles.FrontDeskStaff}")]
 public class InvoicesController : ControllerBase
 {
     private readonly GymDbContext _context;

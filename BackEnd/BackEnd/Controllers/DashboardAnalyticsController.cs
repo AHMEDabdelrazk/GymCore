@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GymCore.API.Data;
 using GymCore.API.DTOs.Dashboard;
 using GymCore.API.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,7 @@ namespace GymCore.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class DashboardAnalyticsController : ControllerBase
 {
     private readonly GymDbContext _context;

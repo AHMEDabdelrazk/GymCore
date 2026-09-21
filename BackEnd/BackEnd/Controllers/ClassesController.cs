@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using GymCore.API.DTOs.Class;
 using GymCore.API.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GymCore.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = $"{UserRoles.SuperAdmin},{UserRoles.Trainer}")]
 public class ClassesController : ControllerBase
 {
     private readonly IClassBookingService _bookingService;

@@ -27,11 +27,10 @@ The platform must enforce Role-Based Access Control (RBAC) with fine-grained cla
 
 | Role | Operational Scope & Permissions |
 | :--- | :--- |
-| **SuperAdmin** | Global executive access across all gym branches/tenants. Can provision new branches, alter global policies, view all-branch consolidated financial MRR, and inspect complete immutable audit trails. |
-| **Branch Manager** | Operational administrator scoped strictly to their assigned branch. Can manage staff, update membership tiers, schedule class timetables, review branch invoices, and monitor attendance metrics. |
-| **Trainer / Coach** | Scoped to group classes and rosters. Can inspect upcoming sessions, view registered attendee rosters, and verify attendance. |
-| **Front Desk Staff** | Scoped to front-of-house operations. Operates the member check-in kiosk terminal, registers walk-in members, and processes barcode/card access scans. |
-| **Member** | End-user. Can browse class schedules, reserve spots in fitness sessions, view waitlist standings, cancel bookings, and review subscription billing status. |
+| **SuperAdmin** | Global executive access across all gym branches/tenants. Can switch between branches, view all-branch consolidated financial MRR and invoices, alter membership tiers, and inspect complete immutable audit trails. |
+| **Trainer / Coach** | Operational role scoped to group fitness classes and rosters. Can inspect upcoming sessions, book spots, and monitor class attendee capacity for their assigned branch. |
+| **Front Desk Staff** | Operational role scoped to front-of-house operations. Operates the member check-in kiosk terminal, registers walk-in members, inspects member passes, and processes barcode/card access scans for their assigned branch. |
+
 
 ---
 
@@ -97,11 +96,10 @@ The final submission package must strictly adhere to the following standards:
    - Absolutely **NO** package cache directories (`node_modules/`, `.vite/`, packages).
    - Absolutely **NO** IDE/developer caches (`.vs/`, `.vscode/`, `*.user`, `*.suo`).
    - Absolutely **NO** Git commit metadata, personal email addresses, local absolute filesystem paths, or repository remote URLs.
-   - Include automated cleanup scripts (`clean_for_submission.ps1` and `clean_for_submission.sh`).
 
 2. **Backend Deliverables (ASP.NET Core 8 Web API):**
    - Clean architecture with controllers, services, repositories, DTOs, and EF Core DbContext.
-   - Support for both SQL Server (production) and portable In-Memory database mode (for instant reviewer evaluation).
+   - Built-in In-Memory database mode with rich seed data automatically initialized on startup for portable, zero-dependency evaluation.
    - Rich database seed initializer pre-populating multi-branch tenants, user roles, active/expired memberships, scheduled sessions, and check-in logs.
    - OpenAPI / Swagger documentation with Bearer authentication and tenant header configurations.
 

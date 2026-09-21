@@ -36,7 +36,7 @@ dotnet run
 ```
 - **API URL:** `http://localhost:5097`
 - **Swagger Documentation:** `http://localhost:5097/swagger`
-- *Note:* The application defaults to **In-Memory database mode** (`"UseInMemoryDatabase": true` in `appsettings.json`) with rich seed data automatically initialized on startup. To use SQL Server, set `"UseInMemoryDatabase": false`.
+- *Note:* The application runs in **In-Memory database mode** (`"UseInMemoryDatabase": true` in `appsettings.json`) with rich seed data automatically initialized on startup, enabling zero-configuration evaluation without external database dependencies.
 
 ### 2.2 Frontend (React + Vite)
 ```bash
@@ -50,13 +50,13 @@ npm run dev
 
 ## 3. Demo Personas & Pre-Seeded Credentials
 
-The database seeder automatically configures accounts for immediate evaluation:
+The database seeder automatically configures operational staff accounts for immediate evaluation:
 
 | Role | Email | Password | Access Scope |
 | :--- | :--- | :--- | :--- |
-| **SuperAdmin** | `admin@gymcore.com` | `Admin123!@#` | Full system access, cross-tenant audit trails, global configuration. |
-| **Head Trainer** | `trainer@gymcore.com` | `Trainer123!@#` | Class session scheduling, attendee roster inspection. |
-| **Front Desk** | `frontdesk@gymcore.com` | `FrontDesk123!@#` | Attendance kiosk operations, member registrations. |
+| **SuperAdmin** | `admin@gymcore.com` | `Admin123!@#` | Full system access, cross-tenant audit trails, branch switching, financial billing. |
+| **Trainer** | `trainer@gymcore.com` | `Trainer123!@#` | Class session scheduling, attendee roster inspection, branch locked. |
+| **Front Desk** | `frontdesk@gymcore.com` | `FrontDesk123!@#` | Attendance kiosk operations, member registrations, branch locked. |
 
 *(Note: The login screen includes convenient 1-click login buttons for instant role switching without manual typing).*
 
@@ -76,27 +76,3 @@ dotnet test
 - **`WebhookIdempotencyTests`**: Verifies that duplicate webhook deliveries with identical event IDs are deduplicated and processed safely without double invoicing, and verifies cryptographic HMAC signature checking.
 - **`SubscriptionLifecycleTests`**: Verifies that the background worker shifts past-due subscriptions to GracePeriod/Expired, and confirms that the check-in service grants or denies access accordingly.
 
----
-
-## 5. Clean Packaging for Submission (Zero Build Artifacts & PII)
-
-To comply strictly with Outlier's source-only submission policy, run the included sanitization script before creating your archive:
-
-### On Windows (PowerShell):
-```powershell
-.\clean_for_submission.ps1
-```
-
-### On Linux / macOS / Git Bash:
-```bash
-chmod +x ./clean_for_submission.sh
-./clean_for_submission.sh
-```
-
-This utility automatically purges:
-- All `.NET` build artifacts (`bin/`, `obj/`, `Debug/`, `Release/`)
-- All Visual Studio and IDE files (`.vs/`, `.vscode/`, `*.user`, `*.suo`)
-- All Node.js caches (`node_modules/`, `dist/`, `.vite/`)
-- Strips any developer personal paths or machine metadata.
-
-*(When creating your final zip archive for Outlier, exclude the `.git` directory so that no local git history, usernames, or remote URLs are included).*

@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GymCore.API.Data;
 using GymCore.API.DTOs.Audit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ namespace GymCore.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = UserRoles.SuperAdmin)]
 public class AuditController : ControllerBase
 {
     private readonly GymDbContext _context;

@@ -30,6 +30,7 @@ export function AuthProvider({ children }) {
   };
 
   const switchTenant = (newTenantId) => {
+    if (user?.role !== "SuperAdmin") return;
     const idStr = newTenantId.toString();
     localStorage.setItem("selectedTenantId", idStr);
     setSelectedTenantId(idStr);

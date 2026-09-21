@@ -32,15 +32,22 @@ function DashboardLayout({ children }) {
     navigate("/login");
   };
 
-  const navItems = [
-    { path: "/dashboard", label: "Dashboard", icon: "bi-speedometer2" },
-    { path: "/members", label: "Members", icon: "bi-people-fill" },
-    { path: "/plans", label: "Plans", icon: "bi-card-checklist" },
-    { path: "/classes", label: "Classes & Schedule", icon: "bi-calendar-event" },
-    { path: "/checkin", label: "Check-In Kiosk", icon: "bi-qr-code-scan" },
-    { path: "/billing", label: "Billing & Webhooks", icon: "bi-credit-card-2-front" },
-    { path: "/audit", label: "Audit Logs", icon: "bi-shield-check" },
+  const isSuperAdmin = user?.role === "SuperAdmin";
+
+  const allNavItems = [
+    { path: "/dashboard", label: "Dashboard", icon: "bi-speedometer2", roles: ["SuperAdmin", "Trainer", "FrontDeskStaff"] },
+    { path: "/members", label: "Members", icon: "bi-people-fill", roles: ["SuperAdmin", "FrontDeskStaff"] },
+    { path: "/plans", label: "Plans", icon: "bi-card-checklist", roles: ["SuperAdmin"] },
+    { path: "/classes", label: "Classes & Schedule", icon: "bi-calendar-event", roles: ["SuperAdmin", "Trainer"] },
+    { path: "/checkin", label: "Check-In Kiosk", icon: "bi-qr-code-scan", roles: ["SuperAdmin", "FrontDeskStaff"] },
+    { path: "/billing", label: "Billing & Webhooks", icon: "bi-credit-card-2-front", roles: ["SuperAdmin", "FrontDeskStaff"] },
+    { path: "/audit", label: "Audit Logs", icon: "bi-shield-check", roles: ["SuperAdmin"] },
   ];
+
+  const currentRole = user?.role || "SuperAdmin";
+  const navItems = allNavItems.filter((item) => item.roles.includes(currentRole));
+
+  const activeTenantName = tenants.find((t) => t.id.toString() === selectedTenantId.toString())?.name || "Downtown Flagship";
 
   return (
     <div className="dashboard-container d-flex" style={{ minHeight: "100vh" }}>
@@ -68,23 +75,32 @@ function DashboardLayout({ children }) {
           <label className="form-label text-muted small mb-1">
             <i className="bi bi-geo-alt-fill text-danger me-1"></i> Active Gym Branch
           </label>
-          <select
-            className="form-select form-select-sm bg-secondary text-white border-0"
-            value={selectedTenantId}
-            onChange={(e) => {
-              switchTenant(e.target.value);
-              window.location.reload(); // Refresh tenant-scoped data
-            }}
-          >
-            {tenants.map((t) => (
-              <option key={t.id} value={t.id}>
-                {t.name}
-              </option>
-            ))}
-          </select>
+          {isSuperAdmin ? (
+            <select
+              className="form-select form-select-sm bg-secondary text-white border-0"
+              value={selectedTenantId}
+              onChange={(e) => {
+                switchTenant(e.target.value);
+                window.location.reload(); // Refresh tenant-scoped data
+              }}
+            >
+              {tenants.map((t) => (
+                <option key={t.id} value={t.id}>
+                  {t.name}
+                </option>
+              ))}
+            </select>
+          ) : (
+            <div className="text-white small fw-semibold d-flex align-items-center justify-content-between px-1 py-1">
+              <span className="text-truncate" style={{ maxWidth: "160px" }}>{activeTenantName}</span>
+              <span className="badge bg-secondary-subtle text-warning border border-secondary border-opacity-50 small" title="Branch is locked to your assigned facility">
+                <i className="bi bi-lock-fill me-1"></i>Locked
+              </span>
+            </div>
+          )}
         </div>
 
-        {/* Navigation items */}
+        {/* Navigation items filtered by role */}
         <ul className="nav flex-column gap-1 flex-grow-1">
           {navItems.map((item) => {
             const isActive = location.pathname.startsWith(item.path);

@@ -1,11 +1,13 @@
 using GymCore.API.DTOs.Plan;
 using GymCore.API.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GymCore.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class PlansController : ControllerBase
 {
     private readonly IPlanService _service;

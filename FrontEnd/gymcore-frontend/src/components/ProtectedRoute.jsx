@@ -11,10 +11,9 @@ function ProtectedRoute({
         );
 
     if (!token) {
-
         return (
             <Navigate
-                to="/"
+                to="/login"
             />
         );
     }

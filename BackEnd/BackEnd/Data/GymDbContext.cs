@@ -175,12 +175,15 @@ public class GymDbContext : IdentityDbContext<ApplicationUser>
             auditLogs.Add(new AuditLog
             {
                 TenantId = tenantId,
+                UserId = _tenantProvider?.GetCurrentUserId(),
+                UserEmail = _tenantProvider?.GetCurrentUserEmail(),
                 Action = action,
                 EntityName = entry.Entity.GetType().Name,
                 EntityId = primaryKey,
                 OldValuesJson = oldValues.Count > 0 ? JsonSerializer.Serialize(oldValues) : null,
                 NewValuesJson = newValues.Count > 0 ? JsonSerializer.Serialize(newValues) : null,
-                TimestampUtc = DateTime.UtcNow
+                TimestampUtc = DateTime.UtcNow,
+                IpAddress = _tenantProvider?.GetClientIpAddress()
             });
         }
 
